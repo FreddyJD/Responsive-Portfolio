@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<!-- SEO and basic page info  -->
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Page name -->
+    <title>Portfolio | Homework</title>
+
+    <!-- CSS imports -->
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<!-- End of SEO and basic page info  -->
+
+<!-- Nav bar -->
+<header class="nav-bar">
+    <div class="nav-bar-logo-text">
+        <h2>Freddy J.</h2>
+    </div>
+    <div class="nav-bar nav-bar-link"> 
+        <a class="nav-bar-a" href="index.html">About</a> </a> <a class="lines">|</a> 
+        <a class="nav-bar-a" href="portfolio.html">Portfolio</a> <a class="lines">|</a>
+        <a class="nav-bar-a" href="contact.html">Contact </a>
+    </div>
+</header>
+<!-- End of the nav bar -->
+
+<!-- Start of the content -->
+<body>
+    <section class="content">
+        <div class="content-head-text">
+            <h2>Portfolio</h2>
+        </div>
+        <hr class="hr-line">
+        <div class="content-portfolio">
+
+        <!-- 
+            This is how a portfolio image work: 
+
+            1 - This element is located on-top of the image 
+
+            <div class="items item-1"> Hello World! </div>
+
+            Note: Each image has its own position created with %.
+            Located at assets/css/style.css (item-#) 
+
+            2 - You add your image 
+            <img class="content-portfolio-size" src="./assets/images/1.jpg"> 
+        -->
+
+            <div class="items item-1"> Hello World! </div>
+                <img class="content-portfolio-size" src="./assets/images/1.jpg">
+
+            <div class="items item-2"> Got this </div>
+                <img class="content-portfolio-size" src="./assets/images/2.jpg">
+
+            <div class="items item-3"> Brad? </div>
+                <img class="content-portfolio-size" src="./assets/images/3.jpg">
+
+            <div class="items item-4"> Bang Bang!  </div>
+                <img class="content-portfolio-size" src="./assets/images/4.jpg">
+
+            <div class="items item-5"> Wait who?! </div>
+                <img class="content-portfolio-size" src="./assets/images/5.jpg">
+
+            <div class="items item-6"> This looks... </div>
+                <img class="content-portfolio-size" src="./assets/images/6.jpg">
+            </div>
+    </section>
+</body>
+<!-- End of the content -->
+
+<!-- Start of the footer -->
+<footer class="foot">
+    <div class="border"></div>
+    <div class="foot-text">
+        <!-- This JS snip is copied from StackOverflow
+        Each year this page will automatically update the year-->
+        <p>Copytight &copy; 2017<script>new Date().getFullYear()>2017&&document.write("-"+new Date().getFullYear());</script></p>
+    </div>
+</footer>
+<!-- End of the footer -->
+
+</html>
